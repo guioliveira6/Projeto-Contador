@@ -1,6 +1,6 @@
 var url = window.location.href
-var captured = /dataFinal=([^&]+)/.exec(url)[1].replace('%2F', "/").replace('%2F', "/"); // Value is in [1] ('384' in our case)
-var result = captured ? captured : 'dataFinal';
+var captured = /dataFinal=([^&]+)/.exec(url)[1].replace('%2F', "/").replace('%2F', "/")
+var result = captured ? captured : 'dataFinal'
 
 let parseData = result.split("/")
 let dataFinal = new Date(+parseData[2], parseData[1] - 1, +parseData[0]).getTime()
