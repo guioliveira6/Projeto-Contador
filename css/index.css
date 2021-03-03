@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+    --verde: #21EB00;
+    --cinza: #191A18;
+    --cinzaTexto: #989998;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', Arial;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    margin: 0;
+    margin-top: 100px;
+}
+
+.bordas {
+    border: none;
+    border-radius: 20px;
+    width: 250px;
+    height: 45px;
+}
+
+
+h1 {
+    color: var(--verde);
+    margin-bottom: -5px;
+}
+
+p {
+    color: var(--cinzaTexto);
+    font-size: 20px;
+}
+
+.botao {
+    background-color: var(--verde);
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+input {
+    background-color: var(--cinza);
+    outline: none;
+    color: var(--cinzaTexto);
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+::placeholder {
+    color: var(--cinzaTexto);
+    font-weight: bold;
+    font-size: 16px;
+}
+
+

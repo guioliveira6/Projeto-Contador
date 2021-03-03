@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/contador.css">
+    <title>Contador</title>
+</head>
+<body onload="javascript:startContador()">
+    <header>
+        <h1>Contador</h1>
+        <a href="index.html">
+            <button>Reiniciar</button>
+        </a>
+    </header>
+    <div class='faltam'>
+        <p>Faltam</p>
+    </div>
+    <div class="regressivo">
+        <div class='dias'>
+            <span id='dias'>00</span>
+            <p>Dias</p>
+        </div>
+        <div class='horas'>
+            <span id='horas'>00</span>
+            <p>Horas</p>
+        </div>
+        <div class='minutos'>
+            <span id='minutos'>00</span>
+            <p>Minutos</p>
+        </div>
+        <div class='segundos'>
+            <span id='segundos'>00</span>
+            <p>Segundos</p>
+        </div>
+    </div>
+</body>
+    <script src="js/contador.js" type="text/javascript"></script>
+</html>
